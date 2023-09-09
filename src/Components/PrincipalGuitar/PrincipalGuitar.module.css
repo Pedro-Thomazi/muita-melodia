@@ -1,0 +1,33 @@
+.principalGuitar {
+  background-color: #4e4e4e;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name h5 {
+  color: #af841e;
+  font-weight: 700;
+}
+
+.name h3 {
+  color: #fff;
+  font-size: 2.5em;
+}
+
+.name p {
+  font-weight: 600;
+}
+
+.name button {
+  margin-top: 70px;
+}

@@ -1,0 +1,107 @@
+.header {
+  background-color: #005161;
+}
+
+.containerAll {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.nameAndLogo {
+  display: flex;
+  align-items: center;
+}
+
+.nameAndLogo h1 {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .containerAll {
+    padding: 10px 0px;
+    flex-direction: column;
+    height: 250px;
+  }
+
+  .containerAll .search {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1000px) {
+.nameAndLogo h1 {
+  display: none;
+}
+}
+
+/* Search */
+.search {
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  border: 2px solid #00B9E0;
+  border-radius: 5px;
+  height: 50px;
+  width: 40%;
+}
+
+.search svg {
+  font-size: 2rem;
+  margin: 0 5px;
+  color: #fff;
+}
+
+.search input {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+.search input::placeholder {
+  color: #ffffff;
+}
+
+.search input:focus {
+  background-color: transparent;
+  box-shadow: none;
+  color: #fff;
+}
+
+/* List For User */
+.listForUser {
+  display: flex;
+  flex-direction: row;
+}
+
+.listForUser li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+  color: #fff;
+}
+
+.listForUser li a {
+  font-weight: 700;
+}
+
+.listForUser li a svg {
+  font-size: 1.2em;
+}
+
+.listForUser li span {
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #E02F0B;
+  color: #fff;
+}

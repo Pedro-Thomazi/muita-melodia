@@ -1,0 +1,150 @@
+#footerImages .imageContainer {
+  background-size: cover;
+  background-position: center;
+  height: 225px;
+  cursor: pointer;
+  transition: .5s;
+  border: 3px solid #101010;
+}
+
+#footerImages .imageContainer:hover {
+  border-color: #005161;
+}
+
+#insta1 {
+  background-image: url('../../img/footerImage-1.webp');
+}
+
+#insta2 {
+  background-image: url('../../img/footerImage-2.webp');
+}
+
+#insta3 {
+  background-image: url('../../img/footerImage-3.webp');
+}
+
+#insta4 {
+  background-image: url('../../img/footerImage-4.webp');
+}
+
+#insta5 {
+  background-image: url('../../img/footerImage-5.webp');
+}
+
+#insta6 {
+  background-image: url('../../img/footerImage-6.webp');
+}
+
+
+#informations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #797979;
+  border: 1px solid #000;
+  height: 250px;
+}
+
+#informations h2 {
+  margin: 20px 0;
+  color: #fff;
+  font-weight: 600;
+}
+
+#informations h1 {
+  color: #00B9E0;
+}
+
+#informations a {
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+#informations a:hover {
+  color: #005161;;
+}
+
+#subscrible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f;
+  border: 1px solid #ccc;
+}
+
+#subscrible h4 {
+  margin: 50px 0;
+  color: #929292;
+  text-align: center;
+}
+
+#subscrible form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #00B9E0;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#subscrible form svg {
+  color: #00B9E0;
+  font-size: 2.5em;
+  margin: 0 10px;
+}
+
+#subscrible form input {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+#subscrible form input::placeholder {
+  color: #fff;
+}
+
+#subscrible form input:focus {
+  box-shadow: none;
+}
+
+#subscrible form button {
+  margin: 0px;
+}
+
+#subscrible .socials {
+  text-align: center;
+  margin: 10px 0;
+}
+
+#subscrible .socials a {
+  font-size: 1.6em;
+  margin: 0 10px;
+  color: #929292;
+}
+
+#makeForMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #005161;
+}
+
+#makeForMe .content {
+  margin: 20px 0;
+}
+
+#makeForMe .content h2 {
+  font-size: 1.4em;
+}
+
+#makeForMe .content h2 span {
+  font-size: 1.5em;
+  color: #00B9E0;
+}
+
+@media (max-width: 546px) {
+  #subscrible form {
+    width: 350px;
+  }
+}

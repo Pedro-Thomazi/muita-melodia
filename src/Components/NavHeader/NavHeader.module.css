@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #4e4e4e;
+}
+
+.navbar ul li a {
+  color: #fff;
+  border-bottom: 1px solid transparent;
+}
+
+.navbar ul li a:hover {
+  border-bottom: 1px solid #00B9E0;
+  color: #fff;
+}
+
+.navbar button {
+  color: #00B9E0;
+  border-color: #00B9E0;
+}

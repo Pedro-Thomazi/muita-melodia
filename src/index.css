@@ -1,0 +1,48 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.myBtn {
+  background-color: #1d5762;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.myBtn:hover {
+  border: 1px solid #1d5762;
+  color: #1d5762;
+}
+
+.dark-bg-color {
+  background-color: #1f1f1f;
+}
+
+.dark-secondary-bg-color {
+  background-color: #3b3b3b;
+}
+
+.secondary-bg-color {
+  background-color: #967969;
+}
+
+.light-bg-color {
+  background-color: #b3adad;
+}
+
+.principalBtn {
+  border: 1px solid #946C0F;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+
+.principalBtn:hover {
+  background-color: #946C0F;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

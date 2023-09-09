@@ -1,0 +1,72 @@
+#carousel #slide {
+  height: 600px;
+}
+
+@media (max-width: 992px) {
+  #carousel #slide {
+    height: auto;
+  }
+}
+
+#miniBanners {
+  margin-top: -10px;
+  z-index: 10;
+}
+
+#miniBanners .banner {
+  z-index: 1;
+  height: 300px;
+  padding: 1.5em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  #miniBanners .banner {
+    max-width: 30%;
+  }
+}
+
+#miniBanners .banner h2 {
+  text-transform: uppercase;
+  max-width: 50px;
+  font-size: 2.2em;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+#miniBanners .banner img {
+  height: 220px;
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+  transition: .4s;
+}
+
+
+#miniBanners .banner:hover img {
+  height: 250px;
+}
+
+#miniBanners .banner a {
+  font-weight: bold;
+  color: #fff;
+  font-size: .8em;
+  transition: .5s;
+}
+
+#miniBanners .banner a:hover {
+  color: #101010;
+}
+
+@media (max-width: 992px) {
+  #miniBanners .banner h2 {
+    font-size: 1.5em;
+  }
+}
+
+#miniBanners #miniBanner1 h2 {
+  color: #fff;
+}

@@ -1,0 +1,29 @@
+.bestSellers {
+  margin-top: 20px;
+}
+
+.bestSellers h1 {
+  font-weight: 700;
+  color: #005161;
+}
+
+.bestSellers div ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #1f1f1f;
+  padding: 20px;
+}
+
+.bestSellers div ul li p {
+  font-weight: 300;
+}
+
+.bestSellers div ul li h3 {
+  font-size: 1.5em;
+}
+
+.bestSellers div ul li span {
+  color: #005161;
+  margin: 10px 0px;
+}
