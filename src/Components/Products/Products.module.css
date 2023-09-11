@@ -1,0 +1,41 @@
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+#mainContainer > div > h2 {
+  margin: 30px auto;
+  font-weight: 700;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border: 1px solid #000;
+}
+
+/* .product ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #1f1f1f;
+  padding: 20px;
+}
+
+.product ul li p {
+  font-weight: 300;
+}
+
+.product ul li h3 {
+  font-size: 1.5em;
+}
+
+.product ul li span {
+  color: #005161;
+  margin: 10px 0px;
+} */

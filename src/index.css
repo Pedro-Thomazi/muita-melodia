@@ -22,6 +22,10 @@
   background-color: #3b3b3b;
 }
 
+.primary-color {
+  color: #005161;
+}
+
 .secondary-bg-color {
   background-color: #967969;
 }
@@ -45,4 +49,12 @@
 ul {
   list-style: none;
   padding: 0;
+}
+
+.specialBtn {
+  background-color: #946C0F;
+}
+
+.specialBtn:hover {
+  border-color: #946C0F;
 }

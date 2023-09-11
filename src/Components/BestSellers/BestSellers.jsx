@@ -9,7 +9,7 @@ const BestSellers = () => {
   return (
     <main className={styles.bestSellers}>
       <div className="container">
-        <h1>Mais Vendidas</h1>
+        <h2>Mais Vendidas</h2>
         <ul className='row'>
           <li className='col'>
             <img src={guitar4} alt="Guitarra" />
