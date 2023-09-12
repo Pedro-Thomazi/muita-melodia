@@ -8,7 +8,7 @@
 }
 
 #footerImages .imageContainer:hover {
-  border-color: #005161;
+  border-color: #00B9E0;
 }
 
 #insta1 {
@@ -56,12 +56,16 @@
 }
 
 #informations a {
+  font-size: 1.1em;
   text-decoration: none;
   color: #1f1f1f;
+  border-bottom: 1px solid transparent;
+  transition: .4s;
 }
 
 #informations a:hover {
-  color: #005161;;
+  color: #00B9E0;;
+  border-bottom: 1px solid #00B9E0;
 }
 
 #subscrible {
@@ -147,4 +151,12 @@
   #subscrible form {
     width: 350px;
   }
+}
+
+.socials a svg {
+  transition: .4s;
+}
+
+.socials a:hover svg {
+  color: #00B9E0;
 }
