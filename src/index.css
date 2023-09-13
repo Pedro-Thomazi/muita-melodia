@@ -58,3 +58,20 @@ ul {
 .specialBtn:hover {
   border-color: #946C0F;
 }
+
+.btnBuy {
+  cursor: pointer;
+  background-color: #1d5762;
+  color: #fff;
+  padding: 20px 60px;
+  align-self: center;
+  font-size: 1.2em;
+  border: 2px solid transparent;
+  transition: .4s;
+}
+
+.btnBuy:hover {
+  border-color: #1d5762;
+  color: #1d5762;
+}
+

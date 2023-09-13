@@ -16,6 +16,24 @@ const Product = () => {
                 <span>Principal Foto</span>
               </div>
             </div>
+            <div className={styles.hidden}>
+              <div className='col-md-4' id={styles.secondary}>
+                <h2>Nome do Produto</h2>
+                <div className={styles.price}>
+                  <h2>R$X.XXX,XX</h2>
+                  <p>em <span>10x R$XXX,XX</span> sem juros.</p>
+                </div>
+                <div className={styles.local}>
+                  <h5><i className="bi bi-person-fill"></i>Entrega a combinar com o vendedor</h5>
+                  <p>São Paulo, São Paulo</p>
+                </div>
+                <div className={styles.color}>
+                  <h5>Cor: <span>XXXXXX</span></h5>
+                </div>
+
+                <button className='btn btnBuy'>Comprar Agora</button>
+              </div>
+            </div>
             <div className='col' id={styles.configs}>
               <h4>Características do produto</h4>
               <ul>
@@ -43,9 +61,21 @@ const Product = () => {
             </div>
           </div>
 
+          <div className={`col-md-4 ${styles.hide}`} id={styles.secondary}>
+            <h2>Nome do Produto</h2>
+            <div className={styles.price}>
+              <h2>R$X.XXX,XX</h2>
+              <p>em <span>10x R$XXX,XX</span> sem juros.</p>
+            </div>
+            <div className={styles.local}>
+              <h5><i className="bi bi-person-fill"></i>Entrega a combinar com o vendedor</h5>
+              <p>São Paulo, São Paulo</p>
+            </div>
+            <div className={styles.color}>
+              <h5>Cor: <span>XXXXXX</span></h5>
+            </div>
 
-          <div className='col-md-4' id={styles.secondary}>
-            secundaria
+            <button className='btn btnBuy'>Comprar Agora</button>
           </div>
         </div>
       </div>
