@@ -1,0 +1,83 @@
+#product {
+  padding: 20px;
+}
+
+#pricipal {
+
+  padding: 20px 10px;
+  /* border: 1px solid #000; */
+  border-radius: 10px;
+}
+
+#changePhotos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+#changePhotos .photo {
+  cursor: pointer;
+  /* background-color: red; */
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  transition: .4s;
+}
+
+#changePhotos .photo:hover {
+  border-color: #00B9E0;
+}
+
+#principalPhoto {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  /* border: 2px solid #000; */
+}
+
+#principalPhoto span {
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin: 10px;
+  height: 100%;
+  padding: 10px;
+}
+
+#configs,
+#description,
+#questions {
+  border-top: 2px solid #000;
+  margin-top: 30px;
+  padding: 10px;
+  /* background-color: blue; */
+}
+
+#configs ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+#configs ul li {
+  margin: 20px 50px;
+}
+
+#questions p {
+  margin: 30px 0;
+}
+
+#questions form textarea:focus {
+  box-shadow: none;
+}
+
+#secondary {
+
+  padding: 20px 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
