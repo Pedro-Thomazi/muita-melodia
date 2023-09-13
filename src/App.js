@@ -5,6 +5,7 @@ import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import NavHeader from './Components/NavHeader/NavHeader';
 import Home from './Pages/Home';
+import Product from './Pages/Product/Product';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path={'/'} element={<Home />}/>
+          <Route path={'/product'} element={<Product />}/>
         </Routes>
       </BrowserRouter>
       <Footer />
