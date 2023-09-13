@@ -1,22 +1,21 @@
 import './App.css';
-import BestSellers from './Components/BestSellers/BestSellers';
-import Footer from './Components/Footer/Footer';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import NavHeader from './Components/NavHeader/NavHeader';
-import PrincipalGuitar from './Components/PrincipalGuitar/PrincipalGuitar';
-import Products from './Components/Products/Products';
-import Slider from './Components/Slider/Slider';
+import Home from './Pages/Home';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <NavHeader />
-      <Slider />
-      <BestSellers />
-      <PrincipalGuitar />
-      <Products />
+      <BrowserRouter>
+        <Routes>
+          <Route path={'/'} element={<Home />}/>
+        </Routes>
+      </BrowserRouter>
       <Footer />
     </div>
   );
