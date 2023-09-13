@@ -1,6 +1,7 @@
 import styles from './PrincipalGuitar.module.css'
 
 import principalGuitar from '../../img/principalGuitar.png'
+import { Link } from 'react-router-dom'
 
 const PrincipalGuitar = () => {
   return (
@@ -11,7 +12,7 @@ const PrincipalGuitar = () => {
             <h5>Raridade</h5>
             <h3>1978 Gibson Double Neck</h3>
             <p>Guitarra Double Neck</p>
-            <button className='btn principalBtn'>Comprar Agora</button>
+            <Link to={'/product'} className='btn principalBtn'>Comprar Agora</Link>
           </div>
           <div className={styles.guitarImage}>
             <img src={principalGuitar} alt="Principal Guitarra" />
