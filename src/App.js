@@ -10,9 +10,9 @@ import Product from './Pages/Product/Product';
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
       <Header />
       <NavHeader />
-      <BrowserRouter>
         <Routes>
           <Route path={'/'} element={<Home />}/>
           <Route path={'/product'} element={<Product />}/>

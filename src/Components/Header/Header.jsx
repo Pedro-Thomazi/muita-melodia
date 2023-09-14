@@ -4,14 +4,17 @@ import logo from '../../img/logo.png'
 
 import { BsSearch, BsPerson, BsFillBagCheckFill } from 'react-icons/bs'
 import { AiOutlineHeart } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <header className={`${styles.header}`}>
       <div className={`container ${styles.containerAll}`}>
         <div className={styles.nameAndLogo}>
-          <h1>M. Melodia</h1>
-          <img src={logo} alt="Logo Muita Melodia" />
+            <Link to={'/'}>
+              <h1>M. Melodia</h1>
+            </Link>
+            <Link to={'/'}><img src={logo} alt="Logo Muita Melodia" /></Link>
         </div>
         <form className={`${styles.search}`}>
           <BsSearch />
