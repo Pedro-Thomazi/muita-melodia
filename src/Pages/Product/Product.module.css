@@ -135,3 +135,10 @@
     display: none;
   }
 }
+
+@media (max-width: 1202px) {
+  #secondary button {
+    font-size: 1em;
+    padding: 20px 40px;
+  }
+}

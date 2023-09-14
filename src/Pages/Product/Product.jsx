@@ -5,7 +5,7 @@ const Product = () => {
     <main className={styles.productContainer}>
       <div className='container-fluid' id={styles.product}>
         <div className='row'>
-          <div className='col-md-8' id={styles.pricipal}>
+          <div className='col-md-9' id={styles.pricipal}>
             <div className='row d-flex' id={styles.photos}>
               <div className='col-md-2' id={styles.changePhotos}>
                 <span className={styles.photo}>Foto 1</span>
@@ -61,7 +61,7 @@ const Product = () => {
             </div>
           </div>
 
-          <div className={`col-md-4 ${styles.hide}`} id={styles.secondary}>
+          <div className={`col-md-3 ${styles.hide}`} id={styles.secondary}>
             <h2>Nome do Produto</h2>
             <div className={styles.price}>
               <h2>R$X.XXX,XX</h2>
