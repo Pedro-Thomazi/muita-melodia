@@ -1,0 +1,45 @@
+#formContainer {
+  position: relative;
+  padding: 50px;
+  /* border: 1px solid #000; */
+  box-shadow: 1px 1px 10px #00000085;
+  background-color: #eee;
+  border-radius: 10px;
+  margin: 30px auto;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.phone,
+.person {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.phone p,
+.person p {
+  margin: 0 10px;
+}
+
+.moreInformations {
+  text-decoration: none;
+}
+
+#form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+}
+
+#form input:focus {
+  box-shadow: none;
+}
+
+.linkRegister {
+  margin-top: 100px;
+}
