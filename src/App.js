@@ -6,6 +6,8 @@ import Header from './Components/Header/Header';
 import NavHeader from './Components/NavHeader/NavHeader';
 import Home from './Pages/Home';
 import Product from './Pages/Product/Product';
+import Login from './Pages/LoginAndRegister/Login/Login';
+import Register from './Pages/LoginAndRegister/Register/Register';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Routes>
           <Route path={'/'} element={<Home />}/>
           <Route path={'/product'} element={<Product />}/>
+          <Route path={'/login'} element={<Login />}/>
+          <Route path={'/register'} element={<Register />}/>
         </Routes>
       </BrowserRouter>
       <Footer />
