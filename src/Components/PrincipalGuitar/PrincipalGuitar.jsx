@@ -4,6 +4,13 @@ import principalGuitar from '../../img/principalGuitar.png'
 import { Link } from 'react-router-dom'
 
 const PrincipalGuitar = () => {
+  const backToTop = () => {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }
   return (
     <main className={styles.principalGuitar}>
       <div className="container">
@@ -12,7 +19,7 @@ const PrincipalGuitar = () => {
             <h5>Raridade</h5>
             <h3>1978 Gibson Double Neck</h3>
             <p>Guitarra Double Neck</p>
-            <Link to={'/product'} className='btn principalBtn'>Comprar Agora</Link>
+            <Link onClick={backToTop} to={'/product'} className='btn principalBtn'>Comprar Agora</Link>
           </div>
           <div className={styles.guitarImage}>
             <img src={principalGuitar} alt="Principal Guitarra" />

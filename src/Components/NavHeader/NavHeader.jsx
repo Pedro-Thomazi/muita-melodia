@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './NavHeader.module.css'
 
 import { BsList } from 'react-icons/bs'
@@ -14,19 +15,19 @@ const NavHeader = () => {
             </button>
             <ul className="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
               <li className="nav-item">
-                <a href="/" className="nav-link">Home</a>
+                <Link to="/" className="nav-link">Home</Link>
               </li>
               <li className="nav-item">
-                <a href="/" className="nav-link">Produtos</a>
+                <Link to="/" className="nav-link">Produtos</Link>
               </li>
               <li className="nav-item">
-                <a href="/" className="nav-link">Promoções</a>
+                <Link to="/" className="nav-link">Promoções</Link>
               </li>
               <li className="nav-item">
-                <a href="/" className="nav-link">Blog</a>
+                <Link to="/" className="nav-link">Blog</Link>
               </li>
               <li className="nav-item">
-                <a href="/" className="nav-link">Contato</a>
+                <a href="#contact" className="nav-link">Contato</a>
               </li>
             </ul>
           </div>

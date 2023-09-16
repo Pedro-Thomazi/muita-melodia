@@ -7,6 +7,13 @@ import pedal1 from '../../img/pedal-1.png'
 import { Link } from 'react-router-dom'
 
 const BestSellers = () => {
+  const backToTop = () => {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }
   return (
     <main className={styles.bestSellers}>
       <div className="container">
@@ -17,28 +24,28 @@ const BestSellers = () => {
             <p>Guitarra</p>
             <h3>Guitarra elétrica Strinberg</h3>
             <span>R$1,245,35</span>
-            <Link to={'/product'} className='btn myBtn'>Comprar</Link>
+            <Link onClick={backToTop} to={'/product'} className='btn myBtn'>Comprar</Link>
           </li>
           <li className='col'>
             <img src={violao1} alt="Guitarra" />
             <p>Violão</p>
             <h3>Violão Eletro Acústico Tagima</h3>
             <span>R$1,523,52</span>
-            <Link to={'/product'} className='btn myBtn'>Comprar</Link>
+            <Link onClick={backToTop} to={'/product'} className='btn myBtn'>Comprar</Link>
           </li>
           <li className='col'>
             <img src={baixo1} alt="Guitarra" />
             <p>Contra Baixo</p>
             <h3>Contra Baixo Fender Squier</h3>
             <span>R$3,414.53</span>
-            <Link to={'/product'} className='btn myBtn'>Comprar</Link>
+            <Link onClick={backToTop} to={'/product'} className='btn myBtn'>Comprar</Link>
           </li>
           <li className='col'>
             <img src={pedal1} alt="Guitarra" />
             <p>Pedal</p>
             <h3>Pedal de efeito Ibanez Tube Screamer TS9</h3>
             <span>R$953.43</span>
-            <Link to={'/product'} className='btn myBtn'>Comprar</Link>
+            <Link onClick={backToTop} to={'/product'} className='btn myBtn'>Comprar</Link>
           </li>
         </ul>
       </div>

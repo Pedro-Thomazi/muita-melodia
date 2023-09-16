@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='container-fluid'>
+      <div className='container-fluid' id='contact'>
         <div className="row">
           <div className={`col-12 col-sm-4`} id={styles.informations}>
             <h2>Páginas</h2>
