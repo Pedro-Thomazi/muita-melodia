@@ -188,6 +188,7 @@
 
 .paymentMethods span {
   color: #00B9E0;
+  cursor: pointer;
 }
 
 .paymentMethods img {
