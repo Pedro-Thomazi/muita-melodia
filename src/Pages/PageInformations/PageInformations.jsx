@@ -3,7 +3,7 @@ import styles from './PageInformations.module.css'
 const PageInformations = () => {
   return (
     <main className='container'>
-      <h1>Informaçãoes</h1>
+      <h1>Informações</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid impedit quisquam facere sunt quos assumenda. Nostrum, rem ab nobis, odio fugit molestiae aut, nisi magnam inventore illo itaque enim quae.</p>
       <ol>
         <li>
