@@ -84,6 +84,7 @@ ul {
 .btncart{
   margin: 10px 0;
   cursor: pointer;
+  background-color: #1d566218;
   color: #1d5762;
   padding: 20px 40px;
   align-self: center;
@@ -94,6 +95,7 @@ ul {
 
 .btncart:hover {
   border-color: #1d5762;
-  color: #1d5762;
+  background-color: #1d566242;
+  color: #000;
 }
 
