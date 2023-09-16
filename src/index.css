@@ -65,6 +65,7 @@ ul {
 }
 
 .btnBuy {
+  margin: 10px 0;
   cursor: pointer;
   background-color: #1d5762;
   color: #fff;
@@ -76,6 +77,22 @@ ul {
 }
 
 .btnBuy:hover {
+  border-color: #1d5762;
+  color: #1d5762;
+}
+
+.btncart{
+  margin: 10px 0;
+  cursor: pointer;
+  color: #1d5762;
+  padding: 20px 40px;
+  align-self: center;
+  font-size: 1.2em;
+  border: 2px solid #1d5762;
+  transition: .4s;
+}
+
+.btncart:hover {
   border-color: #1d5762;
   color: #1d5762;
 }

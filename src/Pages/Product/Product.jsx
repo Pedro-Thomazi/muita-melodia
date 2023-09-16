@@ -76,6 +76,7 @@ const Product = () => {
             </div>
 
             <button className='btn btnBuy'>Comprar Agora</button>
+            <button className='btn btncart'>Adicionar ao carrinho</button>
           </div>
         </div>
       </div>
