@@ -4,8 +4,16 @@ import { BsTelephone, BsFacebook, BsYoutube } from 'react-icons/bs'
 import { FaInstagram } from 'react-icons/fa'
 import { FiTwitter } from 'react-icons/fi'
 import { HiOutlineMail } from 'react-icons/hi'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
+  const backToTop = () => {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }
   return (
     <footer className={styles.footerContainer}>
       <div className='container-fluid'>
@@ -41,9 +49,9 @@ const Footer = () => {
           </div>
           <div className={`col-12 col-sm-4`} id={styles.informations}>
             <h2>Informações</h2>
-            <a href="/">Política de Privacidade</a>
-            <a href="/">Política de Entragas</a>
-            <a href="/">Rastrear Compra</a>
+            <Link onClick={backToTop} to="/informations">Política de Privacidade</Link>
+            <Link onClick={backToTop} to="/informations">Política de Entragas</Link>
+            <Link onClick={backToTop} to="/informations">Rastrear Compra</Link>
           </div>
         </div>
       </div>
