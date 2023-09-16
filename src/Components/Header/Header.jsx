@@ -28,16 +28,16 @@ const Header = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">
+            <Link className="nav-link" to="/login">
               <AiOutlineHeart />
-            </a>
+            </Link>
             <span>0</span>
           </li>
           <li className="nav-item" id="bag-item">
-            <a className="nav-link" href="/">
+            <Link className="nav-link" to="/login">
               <BsFillBagCheckFill />
               <b>R$ 0,00</b>
-            </a>
+            </Link>
             <span>0</span>
           </li>
         </ul>
