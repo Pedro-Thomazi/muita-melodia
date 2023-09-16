@@ -20,7 +20,7 @@ const Products = () => {
   }
   return (
     <main className='conatiner' id={styles.mainContainer}>
-      <div className="container">
+      <div className="container" id='productsLink'>
         <h2 className='primary-color'>Novos Produtos</h2>
         <div className='row' id={styles.productsContainer}>
           <div className={`col-12 col-md-3 ${styles.product}`}>
