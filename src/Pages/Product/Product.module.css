@@ -16,6 +16,8 @@
 @media (max-width: 768px) {
   .hidden {
     display: block;
+    border: 1px solid #000;
+    border-radius: 10px;
   }
 }
 
@@ -104,7 +106,7 @@
   display: flex;
   flex-direction: column;
   padding: 20px 10px;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   border-radius: 10px;
 }
 
@@ -140,5 +142,71 @@
   #secondary button {
     font-size: 1em;
     padding: 20px 40px;
+  }
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.details div {
+  display: flex;
+  flex-direction: row;
+  color: #aaa;
+}
+
+.details div i {
+  margin-right: 10px;
+}
+
+.details div span {
+  color: #00B9E0;
+  cursor: pointer;
+}
+
+.paymentMethods {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.paymentMethods p {
+  font-size: 1.2em;
+}
+
+.paymentMethods button {
+  font-size: .9em;
+}
+
+.paymentMethods button i {
+  margin-right: 10px;
+}
+
+.paymentMethods span {
+  color: #00B9E0;
+}
+
+.paymentMethods img {
+  height: 50px;
+  align-self: flex-start;
+  object-fit: contain;
+}
+
+#show {
+    display: none;
+  }
+
+@media (max-width: 1234px) {
+  #hide {
+    display: none;
+  }
+
+  #show {
+    display: flex;
+    margin-top: 20px;
   }
 }

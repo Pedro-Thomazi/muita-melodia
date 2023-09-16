@@ -1,5 +1,9 @@
 import styles from './Product.module.css'
 
+import cartaoDeCredito from '../../img/payImages/cartao-de-credito.png'
+import cartaoDeDebito from '../../img/payImages/cartao-de-debito.png'
+import boleto from '../../img/payImages/boleto.png'
+
 const Product = () => {
   return (
     <main className={styles.productContainer}>
@@ -32,7 +36,19 @@ const Product = () => {
                 </div>
 
                 <button className='btn btnBuy'>Comprar Agora</button>
+                <button className='btn btncart'>Adicionar ao carrinho</button>
               </div>
+            </div>
+            <div className={styles.paymentMethods} id={styles.show}>
+              <p>Meios de pagamento</p>
+              <button className='btn btnBuy'><i className="bi bi-credit-card"></i>Pague em até 18x sem juros!</button>
+              <p>Cartões de crédito</p>
+              <img src={cartaoDeCredito} alt="Cartões de crédito" />
+              <p>Cartões de débito</p>
+              <img src={cartaoDeDebito} alt="Cartões de débito" />
+              <p>Boleto bancário</p>
+              <img src={boleto} alt="Boleto bancário" />
+              <span>Conheça outros meios de pagamento</span>
             </div>
             <div className='col' id={styles.configs}>
               <h4>Características do produto</h4>
@@ -77,6 +93,37 @@ const Product = () => {
 
             <button className='btn btnBuy'>Comprar Agora</button>
             <button className='btn btncart'>Adicionar ao carrinho</button>
+
+            <div className={styles.details}>
+              <div>
+                <i className="bi bi-arrow-return-left primary-color"></i>
+                <p><span>Devolução grátis.</span> Você tem 30 dias a partir da data de recebimento.</p>
+              </div>
+              <div>
+                <i className="bi bi-shield-fill-check primary-color"></i>
+                <p><span>Compra Garantida</span>, receba o produto que está esperando ou devolvemos o dinheiro.</p>
+              </div>
+              <div>
+                <i className="bi bi-hand-thumbs-up primary-color"></i>
+                <p>Você acumula 3104 pontos com esta compra e está mais perto de ser <span>Meli+</span>.</p>
+              </div>
+              <div>
+                <i className="bi bi-trophy primary-color"></i>
+                <p>90 dias de garantia de fábrica.</p>
+              </div>
+            </div>
+
+            <div className={styles.paymentMethods} id={styles.hide}>
+              <p>Meios de pagamento</p>
+              <button className='btn btnBuy'><i className="bi bi-credit-card"></i>Pague em até 18x sem juros!</button>
+              <p>Cartões de crédito</p>
+              <img src={cartaoDeCredito} alt="Cartões de crédito" />
+              <p>Cartões de débito</p>
+              <img src={cartaoDeDebito} alt="Cartões de débito" />
+              <p>Boleto bancário</p>
+              <img src={boleto} alt="Boleto bancário" />
+              <span>Conheça outros meios de pagamento</span>
+            </div>
           </div>
         </div>
       </div>
