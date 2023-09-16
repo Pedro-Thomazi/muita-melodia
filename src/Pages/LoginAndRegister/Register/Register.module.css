@@ -28,6 +28,7 @@
   margin: 21px 0;
 }
 
+#form select:focus,
 #form input:focus {
   box-shadow: none;
 }

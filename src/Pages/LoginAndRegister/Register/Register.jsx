@@ -11,57 +11,57 @@ const Register = () => {
         </div>
         <form className="row g-3" id={styles.form}>
           <div className="col-md-6 form-floating">
-            <input required type="text" className="form-control" id="inputAddress" placeholder="Digite" />
-            <label htmlFor="inputAddress" className="form-label">Nome</label>
+            <input required type="text" className="form-control" id="name" placeholder="Nome" />
+            <label htmlFor="name" className="form-label">Nome</label>
           </div>
           <div className="col-md-6 form-floating">
-            <input required type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
-            <label htmlFor="inputAddress" className="form-label">Sobrenome</label>
+            <input required type="text" className="form-control" id="surname" placeholder="Sobrenome" />
+            <label htmlFor="surname" className="form-label">Sobrenome</label>
           </div>
           <div className="col-md-12 form-floating">
             <input required type="email" className="form-control" id="inputEmail4" placeholder='E-mail' />
             <label htmlFor="inputEmail4" className="form-label">E-mail</label>
           </div>
           <div className="col-md-6 form-floating">
-            <input required type="password" className="form-control" id="inputPassword4" placeholder='Senha' />
-            <label htmlFor="inputPassword4" className="form-label">Senha</label>
+            <input required type="password" className="form-control" id="password" placeholder='Senha' />
+            <label htmlFor="password" className="form-label">Senha</label>
           </div>
           <div className="col-md-6 form-floating">
-            <input required type="password" className="form-control" id="inputPassword4" placeholder='Confirmação de Senha' />
-            <label htmlFor="inputPassword4" className="form-label">Confirmação de Senha</label>
+            <input required type="password" className="form-control" id="confirmPassword" placeholder='Confirmação de Senha' />
+            <label htmlFor="confirmPassword" className="form-label">Confirmação de Senha</label>
           </div>
           <div className="col-12 form-floating">
-            <input required type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
+            <input required type="text" className="form-control" id="inputAddress" placeholder="Endereço" />
             <label htmlFor="inputAddress" className="form-label">Endereço</label>
           </div>
           <div className="col-12 form-floating">
-            <input required type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
+            <input required type="text" className="form-control" id="inputAddress2" placeholder="Casa / Ap" />
             <label htmlFor="inputAddress2" className="form-label">Casa / Ap</label>
           </div>
           <div className="col-md-5">
-            <select required id="inputState" className="form-select">
-              <option selected>Estado</option>
-              <option>São Paulo</option>
-              <option>Rio de Janeiro</option>
-              <option>Minas Gerais</option>
+            <select required id="state" className="form-select">
+              <option value={'1'}>Estado</option>
+              <option value={'2'}>São Paulo</option>
+              <option value={'3'}>Rio de Janeiro</option>
+              <option value={'4'}>Minas Gerais</option>
             </select>
-            <label htmlFor="inputState" className="form-label"></label>
+            <label htmlFor="state" className="form-label"></label>
           </div>
           <div className="col-md-5">
-            <select required id="inputState" className="form-select">
-              <option selected>Cidade</option>
-              <option>...</option>
+            <select required id="city" className="form-select">
+              <option value={'1'}>Cidade</option>
+              <option value={'2'}>...</option>
             </select>
-            <label htmlFor="inputState" className="form-label"></label>
+            <label htmlFor="city" className="form-label"></label>
           </div>
           <div className="col-md-2 form-floating">
-            <input required type="text" className="form-control" id="inputZip" placeholder='CEP' />
-            <label htmlFor="inputZip" className="form-label">CEP</label>
+            <input required type="text" className="form-control" id="CEP" maxLength={8} placeholder='CEP' />
+            <label htmlFor="CEP" className="form-label">CEP</label>
           </div>
           <div className="col-12">
             <div className="form-check">
-              <input required className="form-check-input" type="checkbox" id="gridCheck" />
-              <label className="form-check-label" htmlFor="gridCheck">
+              <input required className="form-check-input" type="checkbox" id="terms" />
+              <label className="form-check-label" htmlFor="terms">
                 Aceito os <Link to={'/'}>termos</Link>.
               </label>
             </div>
