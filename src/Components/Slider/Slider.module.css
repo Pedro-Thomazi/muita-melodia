@@ -70,3 +70,19 @@
 #miniBanners #miniBanner1 h2 {
   color: #fff;
 }
+
+#miniBanners a {
+ text-decoration: none;
+}
+
+#miniBanners #miniBanner1 a:hover {
+  color: #967969;
+}
+
+#miniBanners #miniBanner3 a {
+  color: #967969;
+}
+
+#miniBanners #miniBanner3 a:hover {
+  color: #000;
+}
